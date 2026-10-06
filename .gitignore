@@ -1,0 +1,25 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints*/
+*/.ipynb_checkpoints/*
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{
+    "best_model_name": "Random Forest",
+    "best_params": {
+        "classifier__max_depth": 12,
+        "classifier__max_features": null,
+        "classifier__min_samples_leaf": 2,
+        "classifier__min_samples_split": 2,
+        "classifier__n_estimators": 100
+    },
+    "best_cv_f1_weighted": 0.7194410812927985,
+    "test_metrics": {
+        "test_accuracy": 0.6582278481012658,
+        "test_precision": 0.7096774193548387,
+        "test_recall": 0.8301886792452831,
+        "test_f1_weighted": 0.6358346878959696,
+        "test_f1_macro": 0.5686552072800809,
+        "test_roc_auc": 0.6386066763425254
+    },
+    "saved_path": "models/best_model.joblib"
+}
